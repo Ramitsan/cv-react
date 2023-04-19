@@ -125,9 +125,6 @@
     width: 350px;
   }
   .about-me {
-    width: 70%;
-  }
-  .about-me {
     width: 100%;
     margin-top: 30px;
   }
@@ -168,6 +165,9 @@
 @media (max-width: 479px) {
   .avatar {
     width: 100%;
+  }
+  .about-me__info {
+    text-align: justify;
   }
   .contacts__item--phone,
   .contacts__item--email {

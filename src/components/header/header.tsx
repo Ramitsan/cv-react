@@ -1,6 +1,5 @@
 import React from "react";
 import avatar from '../../assets/avatar.jpg';
-// import '../style.css';
 import './header.css';
 
 export function Header() {
@@ -17,8 +16,7 @@ export function Header() {
             <p className="about-me__text">
               Hello! My name is Irina and I'm a beginner web-developer. I like creating attractive, user-friendly sites
               with modern design. I have been constantly educating myself, improving my hard&soft skills. I like to work
-              in a
-              team and communicate with new people.
+              in a team and communicate with new people.
             </p>
           </div>
           <div className="contacts">

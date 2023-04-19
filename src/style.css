@@ -68,3 +68,14 @@ img {
   background-repeat: no-repeat;
   background-position: bottom 82px right -25px;
 }
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 75px;
+  align-self: center;
+}
+
+.heading--second-level {
+  font-size: 36px;
+  color: #ffb949;
+}
