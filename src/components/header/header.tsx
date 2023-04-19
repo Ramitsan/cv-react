@@ -1,5 +1,6 @@
 import React from "react";
-import '../style.css';
+import avatar from '../../assets/avatar.jpg';
+// import '../style.css';
 import './header.css';
 
 export function Header() {
@@ -8,7 +9,7 @@ export function Header() {
       <h1>Portfolio of Irina Ramitsan</h1>
       <div className="header__info">
         <div className="avatar">
-          <img className="avatar__img" src="img/avatar.jpg" alt="avatar" />
+          <img className="avatar__img" src={avatar} alt="avatar" />
         </div>
         <section className="about-me">
           <div className="about-me__info">

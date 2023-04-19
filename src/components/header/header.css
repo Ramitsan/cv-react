@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("img/rocket.png");
+  background-image: url("../../assets/rocket.png");
   background-size: 290px auto;
   background-repeat: no-repeat;
   background-position: top right;
@@ -90,15 +90,15 @@
 }
 
 .links__item--github a::before {
-  background-image: url("img/github.svg");
+  background-image: url("../../assets/github.svg");
 }
 
 .links__item--codewars a::before {
-  background-image: url("img/codewars.svg");
+  background-image: url("../../assets/codewars.svg");
 }
 
 .links__item--linkedin a:before {
-  background-image: url("img/linkedin.png");
+  background-image: url("../../assets/linkedin.png");
 }
 
 @media (max-width: 1379px) {
