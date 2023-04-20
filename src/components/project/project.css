@@ -1,0 +1,10 @@
+.technology {
+  width: 350px;
+  margin: 0 auto;
+  color: #2b2156;
+  text-align: center;
+}
+
+.technology__details {
+  font-size: 20px;
+}
