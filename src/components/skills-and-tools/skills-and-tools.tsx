@@ -11,14 +11,14 @@ export function SkillsAndTools() {
         <div className="skills">
           <h2 className="heading heading--second-level">Skills</h2>
           <ul className="skills__list">
-            {skills.map(skill => <li className="skills__item">{skill}</li>)}
+            {skills.map((skill, index) => <li key={index} className="skills__item">{skill}</li>)}
           </ul>
         </div>
 
         <div className="tools">
           <h2 className="heading heading--second-level">Tools</h2>
           <ul className="tools__list">           
-            {tools.map(tool => <li className="tools__item">{tool}</li>)}
+            {tools.map((tool, index) => <li key={index} className="tools__item">{tool}</li>)}
           </ul>
         </div>
         <div className="star-image">
