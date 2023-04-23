@@ -15,7 +15,7 @@ export function Project({ project }: ProjectProps) {
         <h3 className="heading heading--third-level">{title}</h3>
         <img src={`assets/projects/${previewImage}`} alt={title} />      
       </a>
-      <figcaption className="technology">{technologies}
+      <figcaption className="technology">{technologies} <br/>
         <span className="technology__details">{details}</span>
       </figcaption>
     </figure>
