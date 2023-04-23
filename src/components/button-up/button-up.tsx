@@ -5,16 +5,17 @@ export function ButtonUp() {
   const [showBtn, setShowBtn] = useState(false);
 
   useEffect(()=> {
-    const abc = () => {
+    const showButtonUp = () => {
       if (window.pageYOffset > 800) {
         setShowBtn(true);
        } else {
         setShowBtn(false);
        }
     }
-    window.addEventListener('scroll', abc);
+    window.addEventListener('scroll', showButtonUp);
+
     return () => {
-      window.removeEventListener('scroll', abc);
+      window.removeEventListener('scroll', showButtonUp);
     }
   }, []);
   
