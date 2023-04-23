@@ -99,9 +99,37 @@ export const projects: IProject[]  = [
   },
   {
     id: 14,
-    link: 'https://github.com/Ramitsan/877447-six-cities-10',
+    link: 'https://ramitsan.github.io/877447-six-cities-10/',
     title: 'Six-cities',
     previewImage: 'six-cities.jpg',
     technologies: 'TypeScript, React, Redux'
-  }
+  },
+  {
+    id: 15,
+    link: 'https://ramitsan.github.io/Songbird/',
+    title: 'Songbird',
+    previewImage: 'songbird.jpg',
+    technologies: 'JavaScript(ES6), Webpack, OOP, SPA, Audio API, adaptive'
+  },
+  {
+    id: 16,
+    link: 'https://ramitsan.github.io/async-race/async-race/',
+    title: 'Async-race',
+    previewImage: 'async-race.jpg',
+    technologies: 'React, TypeScript, REST API, Webpack, SPA, adaptive'
+  },
+  {
+    id: 17,
+    link: 'https://ramitsan.github.io/online-store/#/',
+    title: 'Online store',
+    previewImage: 'online-store.jpg',
+    technologies: 'React, TypeScript, Webpack, SPA'
+  },
+  {
+    id: 18,
+    link: 'https://poker-game-online.netlify.app/',
+    title: 'Poker',
+    previewImage: 'poker.png',
+    technologies: 'React, TypeScript, Webpack, SPA'
+  },
 ];
