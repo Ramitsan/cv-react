@@ -9,8 +9,6 @@ type ProjectProps = {
 export function Project({ project }: ProjectProps) {
   const { link, title, previewImage, technologies, details } = project;
 
-  { console.log(`assets/projects/${previewImage}`) };
-
   return (
     <figure className="projects__item">
       <a className="project__link" href={link} target="_blank">
