@@ -1,0 +1,101 @@
+.certificates__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.certificates__link {
+  padding: 20px;
+  position: relative;
+}
+
+.certificates__link--academy:before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/arrow-pink.svg");
+  background-repeat: no-repeat;
+  background-size: 90px 45px;
+  width: 90px;
+  height: 45px;
+  left: 130px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  top: 0;
+}
+
+.certificates__link--academy:after {
+  content: "click me";
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fa2e63;
+  width: 150px;
+  top: -10px;
+  left: 25px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.certificates__link--rss:before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/arrow-green.svg");
+  background-repeat: no-repeat;
+  background-size: 45px 36px;
+  width: 45px;
+  height: 36px;
+  left: 127px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  top: -5px;
+}
+
+.certificates__link--rss:after {
+  content: "press me";
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #72f01f;
+  width: 150px;
+  top: -10px;
+  left: 25px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.certificates__link:hover:before,
+.certificates__link:hover:after {
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}
+
+@media (max-width: 1199px) {
+  .work-and-education {
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .education__item,
+  .courses__item {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .work-and-education {
+    padding-bottom: 330px;
+  }
+
+  .education__list,
+  .courses__list {
+    padding-left: 25px;
+  }
+
+  .certificates__link {
+    padding: 0;
+    padding-left: 10px;
+  }
+}
