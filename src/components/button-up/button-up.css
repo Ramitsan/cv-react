@@ -53,10 +53,19 @@
   .btn--up {
     right: 25px;
   }
+  .btn--up:focus,
+  .btn--up:hover {
+    transform: scale(1.2);
+  }
 }
 
 @media (max-width: 479px) {
   .btn--up {
     right: 10px;
+  }
+
+  .btn--up:focus,
+  .btn--up:hover {
+    transform: scale(1.1);
   }
 }

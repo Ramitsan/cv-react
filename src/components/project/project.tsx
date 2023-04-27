@@ -18,7 +18,8 @@ export function Project({ project }: ProjectProps) {
       <figcaption className="technology">{technologies} <br/>
         <span className="technology__details">{details}</span>
       </figcaption>
-      <p className="project__team">{teamProject ? 'team project' : '' }</p>
+      {teamProject  &&
+      <p className="project__team">team project</p>}
     </figure>
   )
 }

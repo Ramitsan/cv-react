@@ -84,7 +84,13 @@
   }
 
   .certificates__link {
-    padding: 8px;
+    padding: 20px 8px;
+  }
+
+  .certificates__link--rss:before {    
+    background-size: 40px 30px;
+    width: 40px;
+    height: 30px;
   }
 }
 
@@ -103,7 +109,7 @@
   }
 
   .certificates__link {
-    padding: 0;
+  
     padding-left: 10px;
   }
 }

@@ -41,9 +41,23 @@
 }
 
 .project__team {
+  position: relative;
   margin: 0;
+  margin-left: 15px;
   font-size: 18px;
   color: #2b2156;
+}
+
+.project__team:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -44px;
+  width: 40px;
+  height: 20px;
+  background-image: url('../../assets/team.png');
+  background-repeat: no-repeat;
+  background-size: 40px 20px;
 }
 
 @media (max-width: 1379px) {
@@ -69,9 +83,11 @@
   .projects__item img {
     width: 270px;
   }
+
   .projects__item {
     width: 45%;
   }
+
   .technology {
     width: 90%;
   }
@@ -83,15 +99,19 @@
     margin: 10px;
     margin-bottom: 20px;
   }
+
   .projects__item img {
     width: 100%;
   }
+
   .projects__item img:hover {
     transform: none;
   }
+
   .technology {
     font-size: 18px;
   }
+
   .technology__details {
     font-size: 14px;
     line-height: 120%;
