@@ -82,6 +82,10 @@
   .courses__item {
     margin-bottom: 10px;
   }
+
+  .certificates__link {
+    padding: 8px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -92,6 +96,10 @@
   .education__list,
   .courses__list {
     padding-left: 25px;
+  }
+
+  .certificates__container  {
+    flex-direction: column;
   }
 
   .certificates__link {

@@ -123,13 +123,15 @@ export const projects: IProject[]  = [
     link: 'https://ramitsan.github.io/online-store/#/',
     title: 'Online store',
     previewImage: 'online-store.jpg',
-    technologies: 'React, TypeScript, Webpack, SPA'
+    technologies: 'React, TypeScript, Webpack, SPA',
+    teamProject: true
   },
   {
     id: 18,
     link: 'https://poker-game-online.netlify.app/',
     title: 'Poker',
     previewImage: 'poker.png',
-    technologies: 'React, TypeScript, Webpack, SPA'
+    technologies: 'React, TypeScript, Webpack, SPA',
+    teamProject: true
   },
 ];

@@ -7,7 +7,7 @@ type ProjectProps = {
 }
 
 export function Project({ project }: ProjectProps) {
-  const { link, title, previewImage, technologies, details } = project;
+  const { link, title, previewImage, technologies, details, teamProject } = project;
 
   return (
     <figure className="projects__item">
@@ -18,6 +18,7 @@ export function Project({ project }: ProjectProps) {
       <figcaption className="technology">{technologies} <br/>
         <span className="technology__details">{details}</span>
       </figcaption>
+      <p className="project__team">{teamProject ? 'team project' : '' }</p>
     </figure>
   )
 }

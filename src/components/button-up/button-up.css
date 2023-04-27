@@ -48,3 +48,15 @@
 .shown {
   display: inline-block;
 }
+
+@media (max-width: 767px) {
+  .btn--up {
+    right: 25px;
+  }
+}
+
+@media (max-width: 479px) {
+  .btn--up {
+    right: 10px;
+  }
+}

@@ -14,7 +14,7 @@ export function Header() {
           <div className="about-me__info">
             <h2 className="about-me__heading heading--second-level">About me</h2>
             <p className="about-me__text">
-              Hello! My name is Irina and I'm a beginner web-developer. I like creating attractive, user-friendly sites
+              Hello! My name is Irina and I'm a web-developer. I like creating attractive, user-friendly sites
               with modern design. I have been constantly educating myself, improving my hard&soft skills. I like to work
               in a team and communicate with new people.
             </p>

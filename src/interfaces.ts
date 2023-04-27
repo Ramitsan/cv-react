@@ -5,4 +5,5 @@ export interface IProject {
   previewImage: string;
   technologies: string
   details?: string;
+  teamProject?: boolean;
 }
