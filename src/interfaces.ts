@@ -3,7 +3,7 @@ export interface IProject {
   link: string;
   title: string;
   previewImage: string;
-  technologies: string
+  technologies: Array<string>;
   details?: string;
   teamProject?: boolean;
 }

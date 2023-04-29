@@ -1,0 +1,16 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filters__item {
+  display: inline-block;
+  padding: 5px; 
+  cursor: pointer;
+}
+
+.filters__item--active {
+  background-color: #ed286f; 
+  border-radius: 5px;
+}
