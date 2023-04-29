@@ -1,16 +1,26 @@
 .filters {
+  margin: 10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .filters__item {
   display: inline-block;
-  padding: 5px; 
+  margin: 0 10px;
+  padding: 5px 15px; 
   cursor: pointer;
 }
 
 .filters__item--active {
   background-color: #ed286f; 
   border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .filters__item {
+    margin: 0 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
 }

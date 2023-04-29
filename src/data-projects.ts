@@ -43,8 +43,8 @@ export const projects: IProject[]  = [
     link: 'https://ramitsan.github.io/Keksobooking/',
     title: 'Keksobooking',
     previewImage: 'keksobooking.jpg',
-    technologies: ['JavaScript'],
-    details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader, Webpack'
+    technologies: ['JavaScript', 'Webpack'],
+    details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader'
   },
   {
     id: 7,

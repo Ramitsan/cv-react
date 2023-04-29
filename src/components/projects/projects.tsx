@@ -6,17 +6,17 @@ import { Filters } from "../filters/filters";
 
 
 export function Projects() { 
-  const [filterId, setFilterId] = useState('All');
+  const [filterTitle, setFilterId] = useState('All');
 
   const filteredProjects = useMemo(() => {
-    return projects.filter(project => project.technologies.find(tec => filterId == 'All' ? true : tec == filterId) != null)
-  }, [filterId]);
+    return projects.filter(project => project.technologies.find(tec => filterTitle == 'All' ? true : tec == filterTitle) != null)
+  }, [filterTitle]);
   
   return (
     <section className="projects">
       <h2 className="heading heading--second-level">My projects</h2> 
 
-      <Filters filterId={filterId} onClickFilter={(id) => {
+      <Filters filterTitle={filterTitle} onClickFilter={(id) => {
             setFilterId(id);
           }} />     
       <div className="projects__list">        
