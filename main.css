@@ -294,11 +294,19 @@
   transition: transform 0.5s ease-out;
 }
 
-.technology {
-  width: 350px;
+.technologies {
+  width: 95%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   color: #2b2156;
   text-align: center;
+}
+
+.technology {
+  margin: 0 5px;
 }
 
 .technology__details {
@@ -306,9 +314,23 @@
 }
 
 .project__team {
+  position: relative;
   margin: 0;
+  margin-left: 15px;
   font-size: 18px;
   color: #2b2156;
+}
+
+.project__team:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -44px;
+  width: 40px;
+  height: 20px;
+  background-image: url(42fa9151247e59430254.png);
+  background-repeat: no-repeat;
+  background-size: 40px 20px;
 }
 
 @media (max-width: 1379px) {
@@ -321,7 +343,6 @@
   }
 
   .technology {
-    width: 100%;
     font-size: 20px;
   }
 
@@ -334,11 +355,9 @@
   .projects__item img {
     width: 270px;
   }
+
   .projects__item {
     width: 45%;
-  }
-  .technology {
-    width: 90%;
   }
 }
 
@@ -348,15 +367,19 @@
     margin: 10px;
     margin-bottom: 20px;
   }
+
   .projects__item img {
     width: 100%;
   }
+
   .projects__item img:hover {
     transform: none;
   }
+
   .technology {
     font-size: 18px;
   }
+
   .technology__details {
     font-size: 14px;
     line-height: 120%;
@@ -369,7 +392,6 @@
     padding-bottom: 10px;
   }
 }
-
 .projects__list {
   display: flex;
   flex-direction: row;
@@ -378,6 +400,32 @@
 }
 
 
+.filters {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.filters__item {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 15px; 
+  cursor: pointer;
+}
+
+.filters__item--active {
+  background-color: #ed286f; 
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .filters__item {
+    margin: 0 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
+}
 .certificates__container {
   display: flex;
   flex-direction: row;
@@ -464,7 +512,13 @@
   }
 
   .certificates__link {
-    padding: 8px;
+    padding: 20px 8px;
+  }
+
+  .certificates__link--rss:before {    
+    background-size: 40px 30px;
+    width: 40px;
+    height: 30px;
   }
 }
 
@@ -483,7 +537,7 @@
   }
 
   .certificates__link {
-    padding: 0;
+  
     padding-left: 10px;
   }
 }
@@ -561,14 +615,22 @@
   .btn--up {
     right: 25px;
   }
+  .btn--up:focus,
+  .btn--up:hover {
+    transform: scale(1.2);
+  }
 }
 
 @media (max-width: 479px) {
   .btn--up {
     right: 10px;
   }
-}
 
+  .btn--up:focus,
+  .btn--up:hover {
+    transform: scale(1.1);
+  }
+}
 *,
 *::before,
 *::after {
