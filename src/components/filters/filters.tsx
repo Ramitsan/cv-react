@@ -8,11 +8,11 @@ interface IFilters {
 }
 
 export function Filters({filterId, onClickFilter} : IFilters) {
-  const tecnologies = ['All', 'HTML', 'CSS', 'SCSS', 'adaptive', 'JavaScript', 'PHP', 'SQL', 'SPA', 'TypeScript', 'React', 'Webpack'];
+  const technologies = ['All', 'HTML', 'CSS', 'SCSS', 'adaptive', 'JavaScript', 'PHP', 'SQL', 'SPA', 'TypeScript', 'React', 'Webpack'];
 
   return (
     <div className="filters">
-        {tecnologies.map((item, i) => {
+        {technologies.map((item, i) => {
           return <span key={i} className={`filters__item ${filterId === item ? 'filters__item--active' : ''}`}
             onClick={() => {             
               onClickFilter(item);

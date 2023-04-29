@@ -10,22 +10,13 @@ import { projects } from './data-projects';
 import './style.css';
 
 export default function App() {
-  const [filterId, setFilterId] = useState('All');
-
-  const filteredProjects = useMemo(() => {
-    return projects.filter(project => project.technologies.find(tec => filterId == 'All' ? true : tec == filterId) != null)
-  }, [filterId]);
-
   return (
     <>
       <div className="wrapper">
         <Header />
         <main>
-          <SkillsAndTools />
-          <Filters filterId={filterId} onClickFilter={(id) => {
-            setFilterId(id);
-          }} /> 
-          <Projects projects={filteredProjects}/>
+          <SkillsAndTools />         
+          <Projects />
           <WorkAndEducation />
         </main>
         <Footer />
