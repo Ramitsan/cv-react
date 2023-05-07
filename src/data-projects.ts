@@ -7,7 +7,8 @@ export const projects: IProject[]  = [
     title: 'Technomart',
     previewImage: 'technomart.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    details: 'pop-up windows, tabs, local storage, google maps, css-animations'
+    details: 'pop-up windows, tabs, local storage, google maps, css-animations',
+    year: '2019'
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ export const projects: IProject[]  = [
     title: 'Pink',
     previewImage: 'pink.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
+    year: '2019'
   },
   {
     id: 3,
@@ -22,7 +24,8 @@ export const projects: IProject[]  = [
     title: 'Kekstagram',
     previewImage: 'kekstagram.jpg',
     technologies: ['JavaScript'],
-    details: 'DOM, events, AJAX, XMLHttpRequest, IIFE, debounce, FileReader'
+    details: 'DOM, events, AJAX, XMLHttpRequest, IIFE, debounce, FileReader',
+    year: '2019'
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export const projects: IProject[]  = [
     title: 'Israel',
     previewImage: 'israel.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
+    year: '2020'
   },
   {
     id: 5,
@@ -37,6 +41,7 @@ export const projects: IProject[]  = [
     title: 'Victory',
     previewImage: 'victory.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
+    year: '2020'
   },
   {
     id: 6,
@@ -44,28 +49,32 @@ export const projects: IProject[]  = [
     title: 'Keksobooking',
     previewImage: 'keksobooking.jpg',
     technologies: ['JavaScript', 'Webpack'],
-    details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader'
+    details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader',
+    year: '2020'
   },
   {
     id: 7,
     link: 'https://ramitsan.github.io/webdev/',
     title: 'Webdev',
     previewImage: 'webdev.jpg',
-    technologies: ['HTML', 'CSS']
+    technologies: ['HTML', 'CSS'],
+    year: '2020'
   },
   {
     id: 8,
     link: 'https://ramitsan.github.io/Shelter/',
     title: 'Shelter',
     previewImage: 'shelter.jpg',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive']
+    technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
+    year: '2020'
   },
   {
     id: 9,
     link: 'https://ramitsan.github.io/Small-JS-projects/calculator/',
     title: 'Calculator',
     previewImage: 'calcul.jpg',
-    technologies: ['HTML', 'CSS', 'JavaScript']
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    year: '2020'
   },
   {
     id: 10,
@@ -73,7 +82,8 @@ export const projects: IProject[]  = [
     title: 'Photo-filter',
     previewImage: 'photofilter.jpg',
     technologies: ['CSS', 'JavaScript'],
-    details: 'CSS Filters, CSS Variables, DOM, events, FileReader, Canvas, Date'
+    details: 'CSS Filters, CSS Variables, DOM, events, FileReader, Canvas, Date',
+    year: '2021'
   },
   {
     id: 11,
@@ -81,42 +91,48 @@ export const projects: IProject[]  = [
     title: 'Virtual-piano',
     previewImage: 'piano.jpg',
     technologies: ['JavaScript'],
-    details: 'DOM, events, data-attributes, Audio API'
+    details: 'DOM, events, data-attributes, Audio API',
+    year: '2021'
   },
   {
     id: 12,
     link: 'https://github.com/Ramitsan/877447-doingsdone-12',
     title: 'Doings done',
     previewImage: 'doingsdone.jpg',
-    technologies: ['PHP', 'SQL']
+    technologies: ['PHP', 'SQL'],
+    year: '2021'
   },
   {
     id: 13,
     link: 'https://ramitsan.github.io/877447-cinemaddict-17/',
     title: 'Cinemaddict',
     previewImage: 'cinemaddict.jpg',
-    technologies: ['SPA', 'JS', 'OOP', 'MVP']
+    technologies: ['SPA', 'JS', 'OOP', 'MVP'],
+    year: '2022'
   },
   {
     id: 14,
     link: 'https://ramitsan.github.io/877447-six-cities-10/',
     title: 'Six-cities',
     previewImage: 'six-cities.jpg',
-    technologies: ['TypeScript', 'React', 'Redux', 'SPA']
+    technologies: ['TypeScript', 'React', 'Redux', 'SPA'],
+    year: '2022'
   },
   {
     id: 15,
     link: 'https://ramitsan.github.io/Songbird/',
     title: 'Songbird',
     previewImage: 'songbird.jpg',
-    technologies: ['JavaScript', 'Webpack', 'OOP', 'SPA', 'Audio API', 'adaptive']
+    technologies: ['JavaScript', 'Webpack', 'OOP', 'SPA', 'Audio API', 'adaptive'],
+    year: '2022'
   },
   {
     id: 16,
     link: 'https://ramitsan.github.io/async-race/async-race/',
     title: 'Async-race',
     previewImage: 'async-race.jpg',
-    technologies: ['React', 'TypeScript', 'REST API', 'Webpack', 'SPA', 'adaptive']
+    technologies: ['React', 'TypeScript', 'REST API', 'Webpack', 'SPA', 'adaptive'],
+    year: '2023'
   },
   {
     id: 17,
@@ -124,7 +140,8 @@ export const projects: IProject[]  = [
     title: 'Online store',
     previewImage: 'online-store.jpg',
     technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
-    teamProject: true
+    teamProject: true,
+    year: '2023'
   },
   {
     id: 18,
@@ -132,6 +149,7 @@ export const projects: IProject[]  = [
     title: 'Poker',
     previewImage: 'poker.png',
     technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
-    teamProject: true
+    teamProject: true,
+    year: '2023'
   },
 ];

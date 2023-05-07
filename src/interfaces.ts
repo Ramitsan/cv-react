@@ -6,4 +6,5 @@ export interface IProject {
   technologies: Array<string>;
   details?: string;
   teamProject?: boolean;
+  year?: string
 }
