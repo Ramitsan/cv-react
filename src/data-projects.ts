@@ -48,7 +48,7 @@ export const projects: IProject[]  = [
   },
   {
     id: 7,
-    link: 'https://ramitsan.github.io/Webdev/',
+    link: 'https://ramitsan.github.io/webdev/',
     title: 'Webdev',
     previewImage: 'webdev.jpg',
     technologies: ['HTML', 'CSS']
