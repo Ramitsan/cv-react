@@ -120,6 +120,14 @@ export const projects: IProject[]  = [
   },
   {
     id: 15,
+    link: 'https://ramitsan.github.io/online-zoo-2022/',
+    title: 'Online zoo',
+    previewImage: 'online-zoo.jpg',
+    technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
+    year: '2022'
+  },
+  {
+    id: 16,
     link: 'https://ramitsan.github.io/Songbird/',
     title: 'Songbird',
     previewImage: 'songbird.jpg',
@@ -127,7 +135,7 @@ export const projects: IProject[]  = [
     year: '2022'
   },
   {
-    id: 16,
+    id: 17,
     link: 'https://ramitsan.github.io/async-race/async-race/',
     title: 'Async-race',
     previewImage: 'async-race.jpg',
@@ -135,7 +143,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 17,
+    id: 18,
     link: 'https://ramitsan.github.io/online-store/#/',
     title: 'Online store',
     previewImage: 'online-store.jpg',
@@ -144,7 +152,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 18,
+    id: 19,
     link: 'https://poker-game-online.netlify.app/',
     title: 'Poker',
     previewImage: 'poker.png',
