@@ -115,7 +115,7 @@ export const projects: IProject[]  = [
     link: 'https://ramitsan.github.io/877447-six-cities-10/',
     title: 'Six-cities',
     previewImage: 'six-cities.jpg',
-    technologies: ['TypeScript', 'React', 'Redux', 'SPA'],
+    technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
     year: '2022'
   },
   {
@@ -147,7 +147,7 @@ export const projects: IProject[]  = [
     link: 'https://ramitsan.github.io/online-store/#/',
     title: 'Online store',
     previewImage: 'online-store.jpg',
-    technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
+    technologies: ['TypeScript', 'React', 'React-Router', 'Webpack', 'SPA'],
     teamProject: true,
     year: '2023'
   },
@@ -159,5 +159,32 @@ export const projects: IProject[]  = [
     technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
     teamProject: true,
     year: '2023'
+  },
+  {
+    id: 20,
+    link: 'https://github.com/Ramitsan/877447-what-to-watch-10',
+    title: 'What to watch',
+    previewImage: 'wtw.jpg',
+    technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
+    teamProject: false,
+    year: '2023-2024'
+  },
+  {
+    id: 21,
+    link: 'https://ramitsan.github.io/Valantis-Test/',
+    title: 'Valantis Test',
+    previewImage: 'valantis.jpg',
+    technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
+    teamProject: false,
+    year: '2024'
+  },
+  {
+    id: 22,
+    link: 'https://ramitsan.github.io/Test-Tale/',
+    title: 'Test Tale',
+    previewImage: 'tale.jpg',
+    technologies: ['HTML', 'SCSS', 'BEM', 'JavaScript', 'Gulp'],
+    teamProject: false,
+    year: '2024'
   },
 ];
