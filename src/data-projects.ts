@@ -167,7 +167,7 @@ export const projects: IProject[]  = [
     previewImage: 'wtw.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
     teamProject: false,
-    year: '2023-2024'
+    year: '2023'
   },
   {
     id: 21,

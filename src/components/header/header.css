@@ -66,6 +66,13 @@
   justify-content: flex-start;
 }
 
+.contacts__list a:focus,
+.contacts__list a:hover,
+.links__list a:focus,
+.links__list a:hover {
+  color: #fa2e63;
+}
+
 .links__item {
   margin-bottom: 15px;
 }
