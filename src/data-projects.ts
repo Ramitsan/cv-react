@@ -3,8 +3,9 @@ import { IProject } from './interfaces';
 export const projects: IProject[]  = [
   {
     id: 1,
-    link: 'https://ramitsan.github.io/Technomart/',
     title: 'Technomart',
+    linkToRepository: 'https://github.com/Ramitsan/Technomart',
+    linkToDeploy: 'https://ramitsan.github.io/Technomart/',   
     previewImage: 'technomart.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     details: 'pop-up windows, tabs, local storage, google maps, css-animations',
@@ -12,16 +13,18 @@ export const projects: IProject[]  = [
   },
   {
     id: 2,
-    link: 'https://ramitsan.github.io/Pink/',
     title: 'Pink',
+    linkToRepository: 'https://github.com/Ramitsan/Pink',
+    linkToDeploy: 'https://ramitsan.github.io/Pink/',   
     previewImage: 'pink.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
     year: '2019'
   },
   {
     id: 3,
-    link: 'https://ramitsan.github.io/Kekstagram/',
     title: 'Kekstagram',
+    linkToRepository: 'https://github.com/Ramitsan/Kekstagram',
+    linkToDeploy: 'https://ramitsan.github.io/Kekstagram/',   
     previewImage: 'kekstagram.jpg',
     technologies: ['JavaScript'],
     details: 'DOM, events, AJAX, XMLHttpRequest, IIFE, debounce, FileReader',
@@ -29,24 +32,27 @@ export const projects: IProject[]  = [
   },
   {
     id: 4,
-    link: 'https://ramitsan.github.io/Israel/',
     title: 'Israel',
+    linkToRepository: 'https://github.com/Ramitsan/Israel',
+    linkToDeploy: 'https://ramitsan.github.io/Israel/',   
     previewImage: 'israel.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
     year: '2020'
   },
   {
     id: 5,
-    link: 'https://lib.vsu.by/web_resurs/pobeda/',
     title: 'Victory',
+    linkToRepository: 'https://github.com/Ramitsan/Victory',
+    linkToDeploy: 'https://lib.vsu.by/web_resurs/pobeda/',   
     previewImage: 'victory.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
     year: '2020'
   },
   {
     id: 6,
-    link: 'https://ramitsan.github.io/Keksobooking/',
     title: 'Keksobooking',
+    linkToRepository: 'https://github.com/Ramitsan/Keksobooking',
+    linkToDeploy: 'https://ramitsan.github.io/Keksobooking/',   
     previewImage: 'keksobooking.jpg',
     technologies: ['JavaScript', 'Webpack'],
     details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader',
@@ -54,32 +60,37 @@ export const projects: IProject[]  = [
   },
   {
     id: 7,
-    link: 'https://ramitsan.github.io/webdev/',
     title: 'Webdev',
+    linkToRepository: 'https://github.com/Ramitsan/webdev',
+    linkToDeploy: 'https://ramitsan.github.io/webdev/',    
     previewImage: 'webdev.jpg',
     technologies: ['HTML', 'CSS'],
     year: '2020'
   },
   {
     id: 8,
-    link: 'https://ramitsan.github.io/Shelter/',
     title: 'Shelter',
+    linkToRepository: 'https://github.com/Ramitsan/Shelter',
+    linkToDeploy: 'https://ramitsan.github.io/Shelter/',    
     previewImage: 'shelter.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
     year: '2020'
   },
   {
     id: 9,
-    link: 'https://ramitsan.github.io/Small-JS-projects/calculator/',
     title: 'Calculator',
+    linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
+    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/calculator/',
+    
     previewImage: 'calcul.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     year: '2020'
   },
   {
     id: 10,
-    link: 'https://ramitsan.github.io/Small-JS-projects/photo-filter/',
     title: 'Photo-filter',
+    linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
+    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/photo-filter/',   
     previewImage: 'photofilter.jpg',
     technologies: ['CSS', 'JavaScript'],
     details: 'CSS Filters, CSS Variables, DOM, events, FileReader, Canvas, Date',
@@ -87,8 +98,9 @@ export const projects: IProject[]  = [
   },
   {
     id: 11,
-    link: 'https://ramitsan.github.io/Small-JS-projects/virtual-piano/',
     title: 'Virtual-piano',
+    linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
+    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/virtual-piano/',   
     previewImage: 'piano.jpg',
     technologies: ['JavaScript'],
     details: 'DOM, events, data-attributes, Audio API',
@@ -96,56 +108,62 @@ export const projects: IProject[]  = [
   },
   {
     id: 12,
-    link: 'https://github.com/Ramitsan/877447-doingsdone-12',
     title: 'Doings done',
+    linkToRepository: 'https://github.com/Ramitsan/877447-doingsdone-12',  
     previewImage: 'doingsdone.jpg',
     technologies: ['PHP', 'SQL'],
     year: '2021'
   },
   {
     id: 13,
-    link: 'https://ramitsan.github.io/877447-cinemaddict-17/',
     title: 'Cinemaddict',
+    linkToRepository: 'https://github.com/Ramitsan/877447-cinemaddict-17',
+    linkToDeploy: 'https://ramitsan.github.io/877447-cinemaddict-17/',   
     previewImage: 'cinemaddict.jpg',
     technologies: ['SPA', 'JS', 'OOP', 'MVP'],
     year: '2022'
   },
   {
     id: 14,
-    link: 'https://ramitsan.github.io/877447-six-cities-10/',
     title: 'Six-cities',
+    linkToRepository: 'https://github.com/Ramitsan/877447-six-cities-10',
+    linkToDeploy: 'https://ramitsan.github.io/877447-six-cities-10/',   
     previewImage: 'six-cities.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
     year: '2022'
   },
   {
     id: 15,
-    link: 'https://ramitsan.github.io/online-zoo-2022/',
     title: 'Online zoo',
+    linkToRepository: 'https://github.com/Ramitsan/online-zoo-2022',
+    linkToDeploy: 'https://ramitsan.github.io/online-zoo-2022/',   
     previewImage: 'online-zoo.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
     year: '2022'
   },
   {
     id: 16,
-    link: 'https://ramitsan.github.io/Songbird/',
     title: 'Songbird',
+    linkToRepository: 'https://github.com/Ramitsan/Songbird',
+    linkToDeploy: 'https://ramitsan.github.io/Songbird/',    
     previewImage: 'songbird.jpg',
     technologies: ['JavaScript', 'Webpack', 'OOP', 'SPA', 'Audio API', 'adaptive'],
     year: '2022'
   },
   {
     id: 17,
-    link: 'https://ramitsan.github.io/async-race/async-race/',
     title: 'Async-race',
+    linkToRepository: 'https://github.com/Ramitsan/async-race',
+    linkToDeploy: 'https://ramitsan.github.io/async-race/async-race/',   
     previewImage: 'async-race.jpg',
     technologies: ['React', 'TypeScript', 'REST API', 'Webpack', 'SPA', 'adaptive'],
     year: '2023'
   },
   {
     id: 18,
-    link: 'https://ramitsan.github.io/online-store/#/',
     title: 'Online store',
+    linkToRepository: 'https://github.com/Ramitsan/online-store',
+    linkToDeploy: 'https://ramitsan.github.io/online-store/#/',   
     previewImage: 'online-store.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Webpack', 'SPA'],
     teamProject: true,
@@ -153,8 +171,9 @@ export const projects: IProject[]  = [
   },
   {
     id: 19,
-    link: 'https://poker-game-online.netlify.app/',
     title: 'Poker',
+    linkToRepository:'https://github.com/sleepyComrade/Poker',
+    linkToDeploy: 'https://poker-game-online.netlify.app/',   
     previewImage: 'poker.png',
     technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
     teamProject: true,
@@ -162,8 +181,8 @@ export const projects: IProject[]  = [
   },
   {
     id: 20,
-    link: 'https://github.com/Ramitsan/877447-what-to-watch-10',
     title: 'What to watch',
+    linkToRepository: 'https://github.com/Ramitsan/877447-what-to-watch-10',  
     previewImage: 'wtw.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
     teamProject: false,
@@ -171,8 +190,9 @@ export const projects: IProject[]  = [
   },
   {
     id: 21,
-    link: 'https://ramitsan.github.io/Valantis-Test/',
     title: 'Valantis Test',
+    linkToRepository: 'https://github.com/Ramitsan/Valantis-Test',
+    linkToDeploy: 'https://ramitsan.github.io/Valantis-Test/',  
     previewImage: 'valantis.jpg',
     technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
     teamProject: false,
@@ -180,8 +200,9 @@ export const projects: IProject[]  = [
   },
   {
     id: 22,
-    link: 'https://ramitsan.github.io/Test-Tale/',
     title: 'Test Tale',
+    linkToRepository: 'https://github.com/Ramitsan/Test-Tale',
+    linkToDeploy: 'https://ramitsan.github.io/Test-Tale/',   
     previewImage: 'tale.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'JavaScript', 'Gulp'],
     teamProject: false,

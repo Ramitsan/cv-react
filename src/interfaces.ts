@@ -1,7 +1,8 @@
 export interface IProject {
   id: number;
-  link: string;
   title: string;
+  linkToRepository: string;
+  linkToDeploy?: string;
   previewImage: string;
   technologies: Array<string>;
   details?: string;
