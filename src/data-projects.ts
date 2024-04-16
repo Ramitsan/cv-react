@@ -116,6 +116,15 @@ export const projects: IProject[]  = [
   },
   {
     id: 13,
+    title: 'Moscow seasons',
+    linkToRepository: 'https://github.com/Ramitsan/moscow-seasons-test-gitlab',
+    linkToDeploy: 'https://ramitsan.github.io/moscow-seasons-test-gitlab/',     
+    previewImage: 'moscow-seasons.jpg',
+    technologies: ['HTML', 'SCSS', 'BEM', 'Gulp'],
+    year: '2021'
+  },
+  {
+    id: 14,
     title: 'Cinemaddict',
     linkToRepository: 'https://github.com/Ramitsan/877447-cinemaddict-17',
     linkToDeploy: 'https://ramitsan.github.io/877447-cinemaddict-17/',   
@@ -124,7 +133,7 @@ export const projects: IProject[]  = [
     year: '2022'
   },
   {
-    id: 14,
+    id: 15,
     title: 'Six-cities',
     linkToRepository: 'https://github.com/Ramitsan/877447-six-cities-10',
     linkToDeploy: 'https://ramitsan.github.io/877447-six-cities-10/',   
@@ -133,7 +142,7 @@ export const projects: IProject[]  = [
     year: '2022'
   },
   {
-    id: 15,
+    id: 16,
     title: 'Online zoo',
     linkToRepository: 'https://github.com/Ramitsan/online-zoo-2022',
     linkToDeploy: 'https://ramitsan.github.io/online-zoo-2022/',   
@@ -142,7 +151,7 @@ export const projects: IProject[]  = [
     year: '2022'
   },
   {
-    id: 16,
+    id: 17,
     title: 'Songbird',
     linkToRepository: 'https://github.com/Ramitsan/Songbird',
     linkToDeploy: 'https://ramitsan.github.io/Songbird/',    
@@ -151,7 +160,7 @@ export const projects: IProject[]  = [
     year: '2022'
   },
   {
-    id: 17,
+    id: 18,
     title: 'Async-race',
     linkToRepository: 'https://github.com/Ramitsan/async-race',
     linkToDeploy: 'https://ramitsan.github.io/async-race/async-race/',   
@@ -160,7 +169,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 18,
+    id: 19,
     title: 'Online store',
     linkToRepository: 'https://github.com/Ramitsan/online-store',
     linkToDeploy: 'https://ramitsan.github.io/online-store/#/',   
@@ -170,7 +179,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 19,
+    id: 20,
     title: 'Poker',
     linkToRepository:'https://github.com/sleepyComrade/Poker',
     linkToDeploy: 'https://poker-game-online.netlify.app/',   
@@ -180,7 +189,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 20,
+    id: 21,
     title: 'What to watch',
     linkToRepository: 'https://github.com/Ramitsan/877447-what-to-watch-10',  
     previewImage: 'wtw.jpg',
@@ -189,7 +198,7 @@ export const projects: IProject[]  = [
     year: '2023'
   },
   {
-    id: 21,
+    id: 22,
     title: 'Valantis Test',
     linkToRepository: 'https://github.com/Ramitsan/Valantis-Test',
     linkToDeploy: 'https://ramitsan.github.io/Valantis-Test/',  
@@ -199,7 +208,7 @@ export const projects: IProject[]  = [
     year: '2024'
   },
   {
-    id: 22,
+    id: 23,
     title: 'Test Tale',
     linkToRepository: 'https://github.com/Ramitsan/Test-Tale',
     linkToDeploy: 'https://ramitsan.github.io/Test-Tale/',   
