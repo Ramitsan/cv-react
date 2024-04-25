@@ -7,7 +7,7 @@ interface IFilters {
 }
 
 export function Filters({filterTitle, onClickFilter} : IFilters) {
-  const technologies = ['All', 'HTML', 'CSS', 'SCSS', 'Gulp', 'adaptive', 'JavaScript', 'PHP', 'SQL', 'SPA', 'TypeScript', 'React', 'Webpack'];
+  const technologies = ['All', 'HTML', 'CSS', 'SCSS', 'Gulp', 'adaptive', 'JavaScript', 'PHP', 'SQL', 'SPA', 'TypeScript', 'React', 'Webpack', 'Node.js', 'Nest.js'];
 
   return (
     <div className="filters">

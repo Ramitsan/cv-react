@@ -129,7 +129,7 @@ export const projects: IProject[]  = [
     linkToRepository: 'https://github.com/Ramitsan/877447-cinemaddict-17',
     linkToDeploy: 'https://ramitsan.github.io/877447-cinemaddict-17/',   
     previewImage: 'cinemaddict.jpg',
-    technologies: ['SPA', 'JS', 'OOP', 'MVP'],
+    technologies: ['SPA', 'JavaScript', 'OOP', 'MVP', 'Node.js', 'TypeScript'],
     year: '2022'
   },
   {
@@ -138,7 +138,7 @@ export const projects: IProject[]  = [
     linkToRepository: 'https://github.com/Ramitsan/877447-six-cities-10',
     linkToDeploy: 'https://ramitsan.github.io/877447-six-cities-10/',   
     previewImage: 'six-cities.jpg',
-    technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
+    technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA', 'Node.js', 'Nest.js'],
     year: '2022'
   },
   {

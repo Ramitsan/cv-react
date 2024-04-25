@@ -2,8 +2,8 @@ import React from "react";
 import './skills-and-tools.css';
 import star from '../../assets/star.png';
 
-const skills = ['HTML5', 'CSS3', 'JavaScript (ES6)', 'jQuery (plugins)', 'BEM', 'SASS (SCSS)', 'Accessibility (a11y)', 'PHP7', 'SQL', 'SPA, OOP, MVP', 'React, Redux', 'TypeScript'];
-const tools = ['Git', 'VS Code', 'npm', 'Adobe Photoshop, Lightroom, Figma', 'DevTools', 'Gulp, Webpack', 'Pixel Perfect', 'WebP', 'MySQL', 'Composer'];
+const skills = ['HTML5', 'CSS3', 'JavaScript (ES6)', 'jQuery (plugins)', 'BEM', 'SASS (SCSS)', 'Accessibility (a11y)', 'PHP7', 'SQL', 'SPA, OOP, MVP', 'React, React Router', 'Redux, Redux Toolkit', 'TypeScript', 'Node.js', 'Nest.js'];
+const tools = ['Git', 'VS Code', 'npm', 'Adobe Photoshop, Lightroom, Figma', 'DevTools', 'Gulp, Webpack', 'Pixel Perfect', 'WebP', 'MySQL', 'Docker', 'React DevTools', 'Redux DevTools', 'REST API', 'Axios', 'Jest', 'React Testing Library'];
 
 export function SkillsAndTools() {  
   return (

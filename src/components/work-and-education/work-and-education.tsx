@@ -24,6 +24,7 @@ export function WorkAndEducation() {
           <li className="courses__item">HTML Academy. JavaScript. Architecture of Front-end Applications - 2022</li>
           <li className="courses__item">HTML Academy. React. Development of Complex Front-end Applications - 2022</li>
           <li className="courses__item">Rolling Scopes School. JavaScript/Front-end - 2022/2023</li>
+          <li className="courses__item">Rolling Scopes School. NodeJS - 2024</li>
         </ul>
       </div>
 
@@ -80,7 +81,7 @@ export function WorkAndEducation() {
         <ul className="languages__list">
           <li className="languages__item">Russian - Native</li>
           <li className="languages__item">Belarusian - Native</li>
-          <li className="languages__item">English - Pre-intermediate (A2)</li>
+          <li className="languages__item">English - Intermediate (B1)</li>
         </ul>
       </div>
     </section>
