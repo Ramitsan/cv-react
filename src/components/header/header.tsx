@@ -21,12 +21,15 @@ export function Header() {
           </div>
           <div className="contacts">
             <h2 className="about-me__heading heading--second-level">Contacts</h2>
-            <ul className="contacts__list contacts__list--main">
-              <li className="contacts__item contacts__item--phone">
-                <a href="tel:+375336961522">+375 33 6961522</a>
-              </li>
+            <ul className="contacts__list contacts__list--main">          
               <li className="contacts__item contacts__item--email">
-                <a href="mailto:ramitsan@gmail.com">ramitsan@gmail.com</a>
+                <a href="mailto:ramitsan@gmail.com" target="_blank">ramitsan@gmail.com</a>
+              </li>
+              <li className="contacts__item contacts__item--telegram">
+                <a href="https://t.me/ramitsan" target="_blank">Telegram</a>
+              </li>
+              <li className="contacts__item contacts__item--linkedin">
+                <a href="https://www.linkedin.com/in/irina-ramitsan-007016187/" target="_blank">Linkedin</a>
               </li>
             </ul>
           </div>
@@ -38,9 +41,6 @@ export function Header() {
               </li>
               <li className="links__item links__item--codewars">
                 <a href="https://www.codewars.com/users/Ramitsan" target="_blank">Codewars</a>
-              </li>
-              <li className="links__item links__item--linkedin">
-                <a href="https://www.linkedin.com/in/irina-ramitsan-007016187/" target="_blank">Linkedin</a>
               </li>
             </ul>
           </div>

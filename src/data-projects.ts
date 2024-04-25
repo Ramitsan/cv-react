@@ -163,7 +163,6 @@ export const projects: IProject[]  = [
     id: 18,
     title: 'Async-race',
     linkToRepository: 'https://github.com/Ramitsan/async-race',
-    linkToDeploy: 'https://ramitsan.github.io/async-race/async-race/',   
     previewImage: 'async-race.jpg',
     technologies: ['React', 'TypeScript', 'REST API', 'Webpack', 'SPA', 'adaptive'],
     year: '2023'

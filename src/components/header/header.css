@@ -58,9 +58,6 @@
 .links__list {
   list-style: none;
   padding-left: 0;
-}
-
-.links__list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -73,20 +70,19 @@
   color: #fa2e63;
 }
 
+.contacts__item,
 .links__item {
   margin-bottom: 15px;
 }
 
-.links__item:not(:last-child) {
-  margin-right: 30px;
-}
-
+.contacts__item a,
 .links__item a {
   position: relative;
   display: inline-block;
   padding-left: 45px;
 }
 
+.contacts__item a:before,
 .links__item a:before {
   content: "";
   position: absolute;
@@ -98,16 +94,24 @@
   background-repeat: no-repeat;
 }
 
+.contacts__item--email a::before {
+  background-image: url("../../assets/email.png");
+}
+
+.contacts__item--telegram a::before {
+  background-image: url("../../assets/telegram.png");
+}
+
+.contacts__item--linkedin a:before {
+  background-image: url("../../assets/linkedin.png");
+}
+
 .links__item--github a::before {
   background-image: url("../../assets/github.svg");
 }
 
 .links__item--codewars a::before {
   background-image: url("../../assets/codewars.svg");
-}
-
-.links__item--linkedin a:before {
-  background-image: url("../../assets/linkedin.png");
 }
 
 @media (max-width: 1379px) {
