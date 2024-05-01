@@ -42,7 +42,6 @@ export const projects: IProject[]  = [
   {
     id: 5,
     title: 'Victory',
-    linkToRepository: 'https://github.com/Ramitsan/Victory',
     linkToDeploy: 'https://lib.vsu.by/web_resurs/pobeda/',   
     previewImage: 'victory.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
@@ -208,12 +207,38 @@ export const projects: IProject[]  = [
   },
   {
     id: 23,
-    title: 'Test Tale',
-    linkToRepository: 'https://github.com/Ramitsan/Test-Tale',
-    linkToDeploy: 'https://ramitsan.github.io/Test-Tale/',   
-    previewImage: 'tale.jpg',
-    technologies: ['HTML', 'SCSS', 'BEM', 'JavaScript', 'Gulp'],
+    title: 'Node.js basics',
+    linkToRepository: 'https://github.com/Ramitsan/node-nodejs-basics',
+    previewImage: 'node-project.png',
+    technologies: ['Node.js'],
     teamProject: false,
     year: '2024'
   },
+  {
+    id: 24,
+    title: 'File Manager',
+    linkToRepository: 'https://github.com/Ramitsan/File-Manager', 
+    previewImage: 'node-project.png',
+    technologies: ['Node.js'],
+    teamProject: false,
+    year: '2024'
+  },
+  {
+    id: 25,
+    title: 'CRUD API',
+    linkToRepository: 'https://github.com/Ramitsan/crud-api', 
+    previewImage: 'node-project.png',
+    technologies: ['Node.js'],
+    teamProject: false,
+    year: '2024'
+  },
+{
+  id: 26,
+  title: 'Silly Billy',
+  linkToDeploy: 'https://sillybilly.cat/',   
+  previewImage: 'silly-billy.png',
+  technologies: ['HTML', 'CSS', 'BEM', 'adaptive'],
+  teamProject: false,
+  year: '2024'
+},
 ];
