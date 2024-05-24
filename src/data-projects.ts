@@ -117,7 +117,7 @@ export const projects: IProject[]  = [
     id: 13,
     title: 'Moscow seasons',
     linkToRepository: 'https://github.com/Ramitsan/moscow-seasons-test-gitlab',
-    linkToDeploy: 'https://ramitsan.github.io/moscow-seasons-test-gitlab/',     
+    linkToDeploy: 'https://ramitsan.github.io/moscow-seasons/',     
     previewImage: 'moscow-seasons.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp'],
     year: '2021'
