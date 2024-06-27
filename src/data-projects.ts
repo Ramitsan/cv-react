@@ -232,13 +232,23 @@ export const projects: IProject[]  = [
     teamProject: false,
     year: '2024'
   },
-{
-  id: 26,
-  title: 'Silly Billy',
-  linkToDeploy: 'https://sillybilly.cat/',   
-  previewImage: 'silly-billy.png',
-  technologies: ['HTML', 'CSS', 'BEM', 'adaptive'],
-  teamProject: false,
-  year: '2024'
-},
+  {
+    id: 26,
+    title: 'Novum Quartal',
+    linkToDeploy: 'https://novum-quartal.netlify.app/', 
+    previewImage: 'novum-quartal.jpg',
+    technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
+    teamProject: false,
+    year: '2024'
+  },
+  {
+    id: 27,
+    title: 'Everest',
+    linkToRepository: 'https://github.com/Ramitsan/Everest',
+    linkToDeploy: 'https://ramitsan.github.io/Everest/', 
+    previewImage: 'everest.png',
+    technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
+    teamProject: false,
+    year: '2024'
+  },
 ];
