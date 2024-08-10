@@ -24,13 +24,13 @@ export function Header() {
             <h2 className="about-me__heading heading--second-level">Contacts</h2>
             <ul className="contacts__list contacts__list--main">          
               <li className="contacts__item contacts__item--email">
-                <a href="mailto:ramitsan@gmail.com" target="_blank">ramitsan@gmail.com</a>
+                <a className="contacts__link" href="mailto:ramitsan@gmail.com" target="_blank">ramitsan@gmail.com</a>
               </li>
               <li className="contacts__item contacts__item--telegram">
-                <a href="https://t.me/ramitsan" target="_blank">Telegram</a>
+                <a className="contacts__link" href="https://t.me/ramitsan" target="_blank">Telegram</a>
               </li>
               <li className="contacts__item contacts__item--linkedin">
-                <a href="https://www.linkedin.com/in/irina-ramitsan-007016187/" target="_blank">Linkedin</a>
+                <a className="contacts__link" href="https://www.linkedin.com/in/irina-ramitsan-007016187/" target="_blank">Linkedin</a>
               </li>
             </ul>
           </div>
@@ -38,10 +38,10 @@ export function Header() {
             <h2 className="about-me__heading heading--second-level">Links</h2>
             <ul className="links__list">
               <li className=" links__item links__item--github">
-                <a href="https://github.com/Ramitsan" target="_blank">GitHub</a>
+                <a className="links__link" href="https://github.com/Ramitsan" target="_blank">GitHub</a>
               </li>
               <li className="links__item links__item--codewars">
-                <a href="https://www.codewars.com/users/Ramitsan" target="_blank">Codewars</a>
+                <a className="links__link" href="https://www.codewars.com/users/Ramitsan" target="_blank">Codewars</a>
               </li>
             </ul>
           </div>

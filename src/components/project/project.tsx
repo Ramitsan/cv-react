@@ -16,8 +16,8 @@ export function Project({ project }: ProjectProps) {
       <div className="project__image-block">
         <img className="project__image" src={`assets/projects/${previewImage}`} alt={title} />
         <div className="project__overlay"></div>
-        {linkToRepository && <a className="project__link project__link--repo" href={linkToRepository} target="_blank">Repository</a>}
         {linkToDeploy && <a className="project__link project__link--deploy" href={linkToDeploy} target="_blank">Deploy</a>}
+        {linkToRepository && <a className="project__link  project__link--repo" href={linkToRepository} target="_blank">Repository</a>}
       </div>
   
       <figcaption className="technologies">{technologies.map(it => <span className="technology">{it}</span>)} <br />

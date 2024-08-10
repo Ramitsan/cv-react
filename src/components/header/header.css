@@ -63,12 +63,15 @@
   justify-content: flex-start;
 }
 
-.contacts__list a:focus,
-.contacts__list a:hover,
-.links__list a:focus,
-.links__list a:hover {
-  color: #fa2e63;
+.contacts__link,
+.links__link {
+  transition: all 0.3s ease;
 }
+
+.contacts__link:hover,
+.links__link:hover {
+  color: #fa2e63;
+} 
 
 .contacts__item,
 .links__item {

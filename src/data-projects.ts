@@ -191,7 +191,7 @@ export const projects: IProject[]  = [
     title: 'What to watch',
     linkToRepository: 'https://github.com/Ramitsan/877447-what-to-watch-10',  
     previewImage: 'wtw.jpg',
-    technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA'],
+    technologies: ['React', 'React-Router', 'Redux-ToolKit', 'TypeScript', 'Axios', 'SPA'],
     teamProject: false,
     year: '2023'
   },
@@ -249,6 +249,15 @@ export const projects: IProject[]  = [
     previewImage: 'everest.png',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
     teamProject: false,
+    year: '2024'
+  },
+  {
+    id: 28,
+    title: 'Granado Espada Classique',
+    linkToDeploy: 'https://ge-classique.com/', 
+    previewImage: 'ge-classique.jpg',
+    technologies: ['React', 'React-Router', 'Redux', 'Axios', 'TypeScript', 'SCSS', 'Webpack', 'SPA'],
+    teamProject: true,
     year: '2024'
   },
 ];
