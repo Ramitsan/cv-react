@@ -187,7 +187,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 20px;
     font-size: 24px;
   }
   .contacts__item--phone,
@@ -213,11 +214,12 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  gap: 150px;
 }
-
+/* 
 .tools {
   margin-left: 150px;
-}
+} */
 
 .star-image {
   position: absolute;
@@ -244,10 +246,43 @@
   }
 }
 
+.skills__list,
+.tools__list{
+  line-height: 150%;
+}
+
+.skills__item,
+.tools__item {
+  position: relative;  
+  padding-left: 30px;
+}
+
+.skills__item::before,
+.tools__item::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 0;
+  background-image: url(e3fdd11392645fd5ceed.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+}
+
 @media (max-width: 1199px) {
+  .skills-and-tools {
+    gap: 20px;
+  }
+
   .star-image {
     top: -50px;
     right: 20px;
+  }
+
+  .skills {
+    width: 50%;
   }
 }
 
@@ -259,9 +294,6 @@
   .tools {
     width: 50%;
   }
-  .tools {
-    margin-left: 0px;
-  }
 }
 
 @media (max-width: 479px) {
@@ -272,9 +304,11 @@
   .skills,
   .tools {
     width: 100%;
-  }
-  .tools {
-    margin-left: 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 .projects__item {
@@ -552,6 +586,31 @@
     cursor: pointer;
   }
 }
+.education__list,
+.courses__list {
+  line-height: 150%;
+}
+
+.education__item,
+.courses__item {
+  position: relative;  
+  padding-left: 30px;
+}
+
+.education__item::before,
+.courses__item::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 0;
+  background-image: url(e3fdd11392645fd5ceed.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+}
+
 .certificates__container {
   display: flex;
   flex-direction: row;
@@ -837,6 +896,11 @@ h1 {
   margin-bottom: 23px;
 }
 
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 1379px) {
   .wrapper {
