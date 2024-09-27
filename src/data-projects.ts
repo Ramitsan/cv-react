@@ -234,6 +234,15 @@ export const projects: IProject[]  = [
   },
   {
     id: 26,
+    title: 'Math Simulator',
+    linkToDeploy: 'https://ramitsan.github.io/Math-Simulator/#/level/0', 
+    previewImage: 'math.jpg',
+    technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
+    teamProject: true,
+    year: '2024'
+  },
+  {
+    id: 27,
     title: 'Novum Quartal',
     linkToDeploy: 'https://novum-quartal.netlify.app/', 
     previewImage: 'novum-quartal.jpg',
@@ -242,7 +251,7 @@ export const projects: IProject[]  = [
     year: '2024'
   },
   {
-    id: 27,
+    id: 28,
     title: 'Everest',
     linkToRepository: 'https://github.com/Ramitsan/Everest',
     linkToDeploy: 'https://ramitsan.github.io/Everest/', 
@@ -252,7 +261,7 @@ export const projects: IProject[]  = [
     year: '2024'
   },
   {
-    id: 28,
+    id: 29,
     title: 'Granado Espada Classique',
     linkToDeploy: 'https://ge-classique.com/', 
     previewImage: 'ge-classique.jpg',
