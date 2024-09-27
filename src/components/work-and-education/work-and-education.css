@@ -1,3 +1,28 @@
+.education__list,
+.courses__list {
+  line-height: 150%;
+}
+
+.education__item,
+.courses__item {
+  position: relative;  
+  padding-left: 30px;
+}
+
+.education__item::before,
+.courses__item::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 0;
+  background-image: url("../../assets/star2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+}
+
 .certificates__container {
   display: flex;
   flex-direction: row;

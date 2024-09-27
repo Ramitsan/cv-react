@@ -8,14 +8,14 @@ export function WorkAndEducation() {
       <p className="work-and-education__info">Software engineer in Vitebsk State University named after P.M.Masherov</p>
       <div className="education">
         <h2 className="heading heading--second-level">Education</h2>
-        <ul className="education__list">
+        <ul className="list-reset education__list">
           <li className="education__item">Vitebsk State University named after P.M.Masherov (Philological Faculty)</li>
           <li className="education__item">Vitebsk State Technological University (Software of Information Systems)</li>
         </ul>
       </div>
       <div className="courses">
         <h2 className="heading heading--second-level">Courses</h2>
-        <ul className="courses__list">
+        <ul className="list-reset courses__list">
           <li className="courses__item">HTML Academy. Professional HTML & CSS, level 1 - 2019</li>
           <li className="courses__item">HTML Academy. Professional HTML & CSS, level 2 - 2019</li>
           <li className="courses__item">HTML Academy. Professional JavaScript, level 1 - 2019</li>
