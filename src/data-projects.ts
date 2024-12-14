@@ -269,4 +269,13 @@ export const projects: IProject[]  = [
     teamProject: true,
     year: '2024'
   },
+  {
+    id: 30,
+    title: 'Med.info',
+    linkToDeploy: 'https://gitmac.info/', 
+    previewImage: 'med.info.jpg',
+    technologies: ['React', 'React-Router', 'TypeScript', 'SCSS', 'Webpack', 'SPA', 'adaptive'],
+    teamProject: true,
+    year: '2024'
+  },
 ];
