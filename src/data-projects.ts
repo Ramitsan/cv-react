@@ -1,11 +1,11 @@
 import { IProject } from './interfaces';
 
-export const projects: IProject[]  = [
+export const projects: IProject[] = [
   {
     id: 1,
     title: 'Technomart',
     linkToRepository: 'https://github.com/Ramitsan/Technomart',
-    linkToDeploy: 'https://ramitsan.github.io/Technomart/',   
+    linkToDeploy: 'https://ramitsan.github.io/Technomart/',
     previewImage: 'technomart.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     details: 'pop-up windows, tabs, local storage, google maps, css-animations',
@@ -15,7 +15,7 @@ export const projects: IProject[]  = [
     id: 2,
     title: 'Pink',
     linkToRepository: 'https://github.com/Ramitsan/Pink',
-    linkToDeploy: 'https://ramitsan.github.io/Pink/',   
+    linkToDeploy: 'https://ramitsan.github.io/Pink/',
     previewImage: 'pink.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
     year: '2019'
@@ -24,7 +24,7 @@ export const projects: IProject[]  = [
     id: 3,
     title: 'Kekstagram',
     linkToRepository: 'https://github.com/Ramitsan/Kekstagram',
-    linkToDeploy: 'https://ramitsan.github.io/Kekstagram/',   
+    linkToDeploy: 'https://ramitsan.github.io/Kekstagram/',
     previewImage: 'kekstagram.jpg',
     technologies: ['JavaScript'],
     details: 'DOM, events, AJAX, XMLHttpRequest, IIFE, debounce, FileReader',
@@ -34,7 +34,7 @@ export const projects: IProject[]  = [
     id: 4,
     title: 'Israel',
     linkToRepository: 'https://github.com/Ramitsan/Israel',
-    linkToDeploy: 'https://ramitsan.github.io/Israel/',   
+    linkToDeploy: 'https://ramitsan.github.io/Israel/',
     previewImage: 'israel.jpg',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'BEM', 'Gulp', 'adaptive'],
     year: '2020'
@@ -42,7 +42,7 @@ export const projects: IProject[]  = [
   {
     id: 5,
     title: 'Victory',
-    linkToDeploy: 'https://lib.vsu.by/web_resurs/pobeda/',   
+    linkToDeploy: 'https://lib.vsu.by/web_resurs/pobeda/',
     previewImage: 'victory.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
     year: '2020'
@@ -51,7 +51,7 @@ export const projects: IProject[]  = [
     id: 6,
     title: 'Keksobooking',
     linkToRepository: 'https://github.com/Ramitsan/Keksobooking',
-    linkToDeploy: 'https://ramitsan.github.io/Keksobooking/',   
+    linkToDeploy: 'https://ramitsan.github.io/Keksobooking/',
     previewImage: 'keksobooking.jpg',
     technologies: ['JavaScript', 'Webpack'],
     details: 'DOM, events, AJAX, XMLHttpRequest, Drag\'n\'Drop, debounce, FileReader',
@@ -61,7 +61,7 @@ export const projects: IProject[]  = [
     id: 7,
     title: 'Webdev',
     linkToRepository: 'https://github.com/Ramitsan/webdev',
-    linkToDeploy: 'https://ramitsan.github.io/webdev/',    
+    linkToDeploy: 'https://ramitsan.github.io/webdev/',
     previewImage: 'webdev.jpg',
     technologies: ['HTML', 'CSS'],
     year: '2020'
@@ -70,7 +70,7 @@ export const projects: IProject[]  = [
     id: 8,
     title: 'Shelter',
     linkToRepository: 'https://github.com/Ramitsan/Shelter',
-    linkToDeploy: 'https://ramitsan.github.io/Shelter/',    
+    linkToDeploy: 'https://ramitsan.github.io/Shelter/',
     previewImage: 'shelter.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'BEM', 'adaptive'],
     year: '2020'
@@ -80,7 +80,7 @@ export const projects: IProject[]  = [
     title: 'Calculator',
     linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
     linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/calculator/',
-    
+
     previewImage: 'calcul.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     year: '2020'
@@ -89,7 +89,7 @@ export const projects: IProject[]  = [
     id: 10,
     title: 'Photo-filter',
     linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
-    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/photo-filter/',   
+    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/photo-filter/',
     previewImage: 'photofilter.jpg',
     technologies: ['CSS', 'JavaScript'],
     details: 'CSS Filters, CSS Variables, DOM, events, FileReader, Canvas, Date',
@@ -99,7 +99,7 @@ export const projects: IProject[]  = [
     id: 11,
     title: 'Virtual-piano',
     linkToRepository: 'https://github.com/Ramitsan/Small-JS-projects',
-    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/virtual-piano/',   
+    linkToDeploy: 'https://ramitsan.github.io/Small-JS-projects/virtual-piano/',
     previewImage: 'piano.jpg',
     technologies: ['JavaScript'],
     details: 'DOM, events, data-attributes, Audio API',
@@ -108,7 +108,7 @@ export const projects: IProject[]  = [
   {
     id: 12,
     title: 'Doings done',
-    linkToRepository: 'https://github.com/Ramitsan/877447-doingsdone-12',  
+    linkToRepository: 'https://github.com/Ramitsan/877447-doingsdone-12',
     previewImage: 'doingsdone.jpg',
     technologies: ['PHP', 'SQL'],
     year: '2021'
@@ -117,7 +117,7 @@ export const projects: IProject[]  = [
     id: 13,
     title: 'Moscow seasons',
     linkToRepository: 'https://github.com/Ramitsan/moscow-seasons-test-gitlab',
-    linkToDeploy: 'https://ramitsan.github.io/moscow-seasons/',     
+    linkToDeploy: 'https://ramitsan.github.io/moscow-seasons/',
     previewImage: 'moscow-seasons.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp'],
     year: '2021'
@@ -126,7 +126,7 @@ export const projects: IProject[]  = [
     id: 14,
     title: 'Cinemaddict',
     linkToRepository: 'https://github.com/Ramitsan/877447-cinemaddict-17',
-    linkToDeploy: 'https://ramitsan.github.io/877447-cinemaddict-17/',   
+    linkToDeploy: 'https://ramitsan.github.io/877447-cinemaddict-17/',
     previewImage: 'cinemaddict.jpg',
     technologies: ['SPA', 'JavaScript', 'OOP', 'MVP', 'Node.js', 'TypeScript'],
     year: '2022'
@@ -135,7 +135,7 @@ export const projects: IProject[]  = [
     id: 15,
     title: 'Six-cities',
     linkToRepository: 'https://github.com/Ramitsan/877447-six-cities-10',
-    linkToDeploy: 'https://ramitsan.github.io/877447-six-cities-10/',   
+    linkToDeploy: 'https://ramitsan.github.io/877447-six-cities-10/',
     previewImage: 'six-cities.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Redux-ToolKit', 'Axios', 'SPA', 'Node.js', 'Nest.js'],
     year: '2022'
@@ -144,7 +144,7 @@ export const projects: IProject[]  = [
     id: 16,
     title: 'Online zoo',
     linkToRepository: 'https://github.com/Ramitsan/online-zoo-2022',
-    linkToDeploy: 'https://ramitsan.github.io/online-zoo-2022/',   
+    linkToDeploy: 'https://ramitsan.github.io/online-zoo-2022/',
     previewImage: 'online-zoo.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
     year: '2022'
@@ -153,7 +153,7 @@ export const projects: IProject[]  = [
     id: 17,
     title: 'Songbird',
     linkToRepository: 'https://github.com/Ramitsan/Songbird',
-    linkToDeploy: 'https://ramitsan.github.io/Songbird/',    
+    linkToDeploy: 'https://ramitsan.github.io/Songbird/',
     previewImage: 'songbird.jpg',
     technologies: ['JavaScript', 'Webpack', 'OOP', 'SPA', 'Audio API', 'adaptive'],
     year: '2022'
@@ -170,7 +170,7 @@ export const projects: IProject[]  = [
     id: 19,
     title: 'Online store',
     linkToRepository: 'https://github.com/Ramitsan/online-store',
-    linkToDeploy: 'https://ramitsan.github.io/online-store/#/',   
+    linkToDeploy: 'https://ramitsan.github.io/online-store/#/',
     previewImage: 'online-store.jpg',
     technologies: ['TypeScript', 'React', 'React-Router', 'Webpack', 'SPA'],
     teamProject: true,
@@ -179,8 +179,8 @@ export const projects: IProject[]  = [
   {
     id: 20,
     title: 'Poker',
-    linkToRepository:'https://github.com/sleepyComrade/Poker',
-    linkToDeploy: 'https://poker-game-online.netlify.app/',   
+    linkToRepository: 'https://github.com/sleepyComrade/Poker',
+    linkToDeploy: 'https://poker-game-online.netlify.app/',
     previewImage: 'poker.png',
     technologies: ['React', 'TypeScript', 'Webpack', 'SPA'],
     teamProject: true,
@@ -189,22 +189,22 @@ export const projects: IProject[]  = [
   {
     id: 21,
     title: 'What to watch',
-    linkToRepository: 'https://github.com/Ramitsan/877447-what-to-watch-10',  
+    linkToRepository: 'https://github.com/Ramitsan/877447-what-to-watch-10',
     previewImage: 'wtw.jpg',
     technologies: ['React', 'React-Router', 'Redux-ToolKit', 'TypeScript', 'Axios', 'SPA'],
     teamProject: false,
     year: '2023'
   },
-  {
-    id: 22,
-    title: 'Valantis Test',
-    linkToRepository: 'https://github.com/Ramitsan/Valantis-Test',
-    linkToDeploy: 'https://ramitsan.github.io/Valantis-Test/',  
-    previewImage: 'valantis.jpg',
-    technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
-    teamProject: false,
-    year: '2024'
-  },
+  // {
+  //   id: 22,
+  //   title: 'Valantis Test',
+  //   linkToRepository: 'https://github.com/Ramitsan/Valantis-Test',
+  //   linkToDeploy: 'https://ramitsan.github.io/Valantis-Test/',
+  //   previewImage: 'valantis.jpg',
+  //   technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
+  //   teamProject: false,
+  //   year: '2024'
+  // },
   {
     id: 23,
     title: 'Node.js basics',
@@ -217,7 +217,7 @@ export const projects: IProject[]  = [
   {
     id: 24,
     title: 'File Manager',
-    linkToRepository: 'https://github.com/Ramitsan/File-Manager', 
+    linkToRepository: 'https://github.com/Ramitsan/File-Manager',
     previewImage: 'node-project.png',
     technologies: ['Node.js'],
     teamProject: false,
@@ -226,7 +226,7 @@ export const projects: IProject[]  = [
   {
     id: 25,
     title: 'CRUD API',
-    linkToRepository: 'https://github.com/Ramitsan/crud-api', 
+    linkToRepository: 'https://github.com/Ramitsan/crud-api',
     previewImage: 'node-project.png',
     technologies: ['Node.js'],
     teamProject: false,
@@ -235,7 +235,7 @@ export const projects: IProject[]  = [
   {
     id: 26,
     title: 'Math Simulator',
-    linkToDeploy: 'https://ramitsan.github.io/Math-Simulator/#/level/0', 
+    linkToDeploy: 'https://ramitsan.github.io/Math-Simulator/#/level/0',
     previewImage: 'math.jpg',
     technologies: ['React', 'TypeScript', 'Webpack', 'CSS'],
     teamProject: true,
@@ -244,7 +244,7 @@ export const projects: IProject[]  = [
   {
     id: 27,
     title: 'Novum Quartal',
-    linkToDeploy: 'https://novum-quartal.netlify.app/', 
+    linkToDeploy: 'https://novum-quartal.netlify.app/',
     previewImage: 'novum-quartal.jpg',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
     teamProject: false,
@@ -254,7 +254,7 @@ export const projects: IProject[]  = [
     id: 28,
     title: 'Everest',
     linkToRepository: 'https://github.com/Ramitsan/Everest',
-    linkToDeploy: 'https://ramitsan.github.io/Everest/', 
+    linkToDeploy: 'https://ramitsan.github.io/Everest/',
     previewImage: 'everest.png',
     technologies: ['HTML', 'SCSS', 'BEM', 'Gulp', 'JavaScript', 'adaptive'],
     teamProject: false,
@@ -263,19 +263,44 @@ export const projects: IProject[]  = [
   {
     id: 29,
     title: 'Granado Espada Classique',
-    linkToDeploy: 'https://ge-classique.com/', 
+    linkToDeploy: 'https://ge-classique.com/',
     previewImage: 'ge-classique.jpg',
-    technologies: ['React', 'React-Router', 'Redux', 'Axios', 'TypeScript', 'SCSS', 'Webpack', 'SPA'],
+    technologies: ['React', 'React-Router', 'Redux-Saga', 'Axios', 'TypeScript', 'SCSS', 'Webpack', 'SPA'],
     teamProject: true,
     year: '2024'
   },
   {
     id: 30,
     title: 'Med.info',
-    linkToDeploy: 'https://gitmac.info/', 
+    linkToDeploy: 'https://gitmac.info/',
     previewImage: 'med.info.jpg',
     technologies: ['React', 'React-Router', 'TypeScript', 'SCSS', 'Webpack', 'SPA', 'adaptive'],
     teamProject: true,
     year: '2024'
+  },
+  {
+    id: 31,
+    title: 'Check auto',
+    linkToDeploy: 'https://check.auto/',
+    previewImage: 'auto.jpg',
+    technologies: ['React', 'React-Router', 'TypeScript', 'SCSS', 'Webpack', 'Axios', 'adaptive'],
+    year: '2025'
+  },
+  {
+    id: 32,
+    title: 'Brave',
+    linkToDeploy: 'https://brave7.netlify.app/',
+    previewImage: 'brave.jpg',
+    technologies: ['React', 'CSS', 'Webpack', 'adaptive'],
+    year: '2025'
+  },
+  {
+    id: 33,
+    title: 'GE-Classique v.2',
+    linkToDeploy: 'https://ge-classique.com/',
+    previewImage: 'ge.jpg',
+    technologies: ['React', 'React-Router', 'Redux-Saga', 'Axios', 'TypeScript', 'SCSS', 'Webpack', 'SPA'],
+    teamProject: true,
+    year: '2025'
   },
 ];
