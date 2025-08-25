@@ -269,6 +269,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 17px 17px;
+  transition: all ease .5s;
+}
+
+.skills__item:hover::before,
+.tools__item:hover::before {
+  transform: rotateY(180deg);
 }
 
 @media (max-width: 1199px) {
